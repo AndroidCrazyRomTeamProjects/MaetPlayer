@@ -1,0 +1,101 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:aapt="http://schemas.android.com/aapt"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+
+    <!-- 1. The Main Glassmorphic Disc (The Circle) -->
+    <path
+        android:pathData="M 54,23 A 31,31 0 1,1 53.99,23 Z"
+        android:strokeColor="#50FFFFFF"
+        android:strokeWidth="1.2">
+        <aapt:attr name="android:fillColor">
+            <gradient
+                android:startX="23"
+                android:startY="23"
+                android:endX="85"
+                android:endY="85"
+                android:type="linear">
+                <item android:offset="0.0" android:color="#32FFFFFF" />
+                <item android:offset="1.0" android:color="#0FFFFFFF" />
+            </gradient>
+        </aapt:attr>
+    </path>
+
+    <!-- 2. Circular Orbit Track Circulating Around the Center Play Button -->
+    <path
+        android:pathData="M 54,31.5 A 22.5,22.5 0 1,1 53.99,31.5 Z"
+        android:strokeColor="#45FFFFFF"
+        android:strokeWidth="0.9"
+        android:fillColor="#00000000" />
+
+    <!-- 3A. Drawing Paper 1 (Top-Left Orbit) - Shadow & Body -->
+    <path
+        android:pathData="M 30.69,35.13 L 35.67,32.81 L 40.32,34.50 L 44.04,42.48 Q 44.67,43.83 43.31,44.47 L 36.52,47.64 Q 35.16,48.27 34.52,46.91 L 29.96,37.12 Q 29.33,35.77 30.69,35.13 Z"
+        android:fillColor="#3507132B" />
+    <path
+        android:pathData="M 30.69,33.33 L 35.67,31.01 L 40.32,32.70 L 44.04,40.68 Q 44.67,42.03 43.31,42.67 L 36.52,45.84 Q 35.16,46.47 34.52,45.11 L 29.96,35.32 Q 29.33,33.97 30.69,33.33 Z"
+        android:fillColor="#FFFFFF" />
+    <path
+        android:pathData="M 35.67,31.01 L 36.52,32.82 Q 37.15,34.18 38.51,33.55 L 40.32,32.70 Z"
+        android:fillColor="#CBD5E1" />
+    <path
+        android:pathData="M 34.74,39.36 L 39.50,37.14"
+        android:strokeColor="#38BDF8"
+        android:strokeWidth="1.1"
+        android:strokeLineCap="round" />
+
+    <!-- 3B. Drawing Paper 2 (Bottom-Left Orbit) - Shadow & Body -->
+    <path
+        android:pathData="M 35.84,62.03 L 41.00,63.91 L 43.10,68.40 L 40.09,76.67 Q 39.57,78.08 38.16,77.57 L 31.12,75.00 Q 29.71,74.49 30.22,73.08 L 33.91,62.93 Q 34.43,61.52 35.84,62.03 Z"
+        android:fillColor="#3507132B" />
+    <path
+        android:pathData="M 35.84,60.23 L 41.00,62.11 L 43.10,66.60 L 40.09,74.87 Q 39.57,76.28 38.16,75.77 L 31.12,73.20 Q 29.71,72.69 30.22,71.28 L 33.91,61.13 Q 34.43,59.72 35.84,60.23 Z"
+        android:fillColor="#FFFFFF" />
+    <path
+        android:pathData="M 41.00,62.11 L 40.32,63.99 Q 39.81,65.40 41.22,65.92 L 43.10,66.60 Z"
+        android:fillColor="#CBD5E1" />
+    <path
+        android:pathData="M 34.44,67.36 L 39.37,69.16"
+        android:strokeColor="#38BDF8"
+        android:strokeWidth="1.1"
+        android:strokeLineCap="round" />
+
+    <!-- 4. Drawing Pen / Stylus (Top-Right Orbit) - Shadow, Body & Grip -->
+    <path
+        android:pathData="M 64.16,34.76 L 74.81,42.21 L 76.76,45.53 L 72.97,44.84 L 62.32,37.38 Z"
+        android:fillColor="#3507132B" />
+    <path
+        android:pathData="M 64.16,32.96 L 74.81,40.41 L 76.76,43.73 L 72.97,43.04 L 62.32,35.58 Z"
+        android:fillColor="#FFFFFF" />
+    <path
+        android:pathData="M 68.72,36.64 L 71.18,38.36 L 69.80,40.33 L 67.35,38.61 Z"
+        android:fillColor="#38BDF8" />
+
+    <!-- 5. Battery Icon (Bottom-Right Orbit) - Shadow, Shell, Cavity & Green Charge -->
+    <path
+        android:pathData="M 65.22,67.65 L 72.17,65.12 Q 73.86,64.50 74.48,66.19 L 75.98,70.33 Q 76.60,72.02 74.91,72.64 L 67.95,75.17 Q 66.26,75.78 65.64,74.09 L 64.14,69.96 Q 63.52,68.26 65.22,67.65 Z"
+        android:fillColor="#3507132B" />
+    <path
+        android:pathData="M 65.22,65.85 L 72.17,63.32 Q 73.86,62.70 74.48,64.39 L 75.98,68.53 Q 76.60,70.22 74.91,70.84 L 67.95,73.37 Q 66.26,73.98 65.64,72.29 L 64.14,68.16 Q 63.52,66.46 65.22,65.85 Z"
+        android:fillColor="#FFFFFF" />
+    <path
+        android:pathData="M 74.65,64.86 L 76.34,64.25 L 77.50,67.44 L 75.81,68.06 Z"
+        android:fillColor="#FFFFFF" />
+    <path
+        android:pathData="M 64.81,67.06 L 73.26,63.98 L 75.31,69.62 L 66.86,72.70 Z"
+        android:fillColor="#172554" />
+    <path
+        android:pathData="M 65.19,67.24 L 70.87,65.17 L 72.72,70.25 L 67.04,72.32 Z"
+        android:fillColor="#22C55E" />
+
+    <!-- 6. Center Hub Play Button (with One UI 7 Soft Tactile Shadow) -->
+    <path
+        android:pathData="M 46.5,51.2 Q 46.5,45.4 51.6,48.3 L 60.5,53.4 Q 65.5,56.2 60.5,59.0 L 51.6,64.1 Q 46.5,67.0 46.5,61.2 Z"
+        android:fillColor="#3807132B" />
+    <path
+        android:pathData="M 46.5,49.0 Q 46.5,43.2 51.6,46.1 L 60.5,51.2 Q 65.5,54.0 60.5,56.8 L 51.6,61.9 Q 46.5,64.8 46.5,59.0 Z"
+        android:fillColor="#FFFFFF" />
+
+</vector>
